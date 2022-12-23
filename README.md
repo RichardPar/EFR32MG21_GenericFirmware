@@ -5,9 +5,10 @@ This is a generic build from reference!
 ![easyiot dongle](https://github.com/xsp1989/zigbeeFirmware/blob/master/Pic/easyiot%20Dongle.png)
 
 EFR32MG21 target
-Standalone Bootloader
-NCP UART TX --> PA0
-NCP UART RC <-- PA1
+|Standalone Bootloader|
+|NCP UART TX| PA0|
+|NCP UART RC|PA1|
+
 PB00/UART_BUTTON_RESET is bootloader activiation pin/button
 Version: x.xx.x
 DCDC
