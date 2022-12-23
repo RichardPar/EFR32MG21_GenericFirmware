@@ -4,8 +4,10 @@ This is a generic build from reference!
 
 ![easyiot dongle](https://github.com/xsp1989/zigbeeFirmware/blob/master/Pic/easyiot%20Dongle.png)
 
-EFR32MG21 target
-|Standalone Bootloader|
+EFR32MG210 target
+
+|Standalone Bootloader| |
+|---|---|
 |NCP UART TX| PA0|
 |NCP UART RC|PA1|
 
