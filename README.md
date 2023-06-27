@@ -11,9 +11,11 @@ EFR32MG210 target
 |NCP UART TX| PB1|
 |NCP UART RX|PB0|
 
-PB00/UART_BUTTON_RESET is bootloader activiation pin/button
+BUTTON_RESET is bootloader activiation pin/button
 Version: x.xx.x
 DCDC
 
 Use "1. upload gbl" and "xmodem(128 byte)" to send bootloader ota file to device.
 
+You can use SiLabs univeral flasher to update the file..
+This is tested and working with HomeAssistant SILabs Multi-Protocol
