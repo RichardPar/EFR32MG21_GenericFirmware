@@ -8,8 +8,8 @@ EFR32MG210 target
 
 |Standalone Bootloader| |
 |---|---|
-|NCP UART TX| PA0|
-|NCP UART RC|PA1|
+|NCP UART TX| PB1|
+|NCP UART RX|PB0|
 
 PB00/UART_BUTTON_RESET is bootloader activiation pin/button
 Version: x.xx.x
