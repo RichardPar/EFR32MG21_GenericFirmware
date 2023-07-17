@@ -6,6 +6,7 @@ This is a generic build from reference!
 
 EFR32MG210 target
 
+Baudrate is 115200
 |Standalone Bootloader| |
 |---|---|
 |NCP UART TX| PB1|
