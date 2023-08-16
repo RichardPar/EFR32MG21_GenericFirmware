@@ -21,7 +21,7 @@ Use "1. upload gbl" and "xmodem(128 byte)" to send bootloader ota file to device
 You can use SiLabs univeral flasher to update the file..
 This is tested and working with HomeAssistant SILabs Multi-Protocol
 
-# Install
+Install
 Install the universal-silabs-flasher available on the PyPI:
 
 $ pip install universal-silabs-flasher
