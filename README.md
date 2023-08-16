@@ -1,4 +1,4 @@
-![image](https://github.com/RichardPar/EFR32MG21_GenericFirmware/assets/1158641/e5e64278-4f53-4f88-a41a-6f730a629cba)# EFR32MG21_GenericFirmware
+# EFR32MG21_GenericFirmware
 
 This is a generic build from reference!
 
@@ -21,21 +21,22 @@ Use "1. upload gbl" and "xmodem(128 byte)" to send bootloader ota file to device
 You can use SiLabs univeral flasher to update the file..
 This is tested and working with HomeAssistant SILabs Multi-Protocol
 
-Install
-Install the universal-silabs-flasher available on the PyPI:
-
-$ pip install universal-silabs-flasher
-
+# Install
+Install the universal-silabs-flasher available on the Python wheel:
+Command
+|---|
+|pip install universal-silabs-flasher|
 
 
 Run firmware update
-$ cd silabs-firmware
+cd silabs-firmware
 
-$ universal-silabs-flasher --device <serial-path> \
+universal-silabs-flasher --device <serial-path> \
     flash --allow-cross-flashing --firmware <firmware-file>
 
-
-$ universal-silabs-flasher --device /dev/ttyUSB0  flash --allow-cross-flashing --firmware xxxxxxxxxx.gbl
+Command
+|---|
+|universal-silabs-flasher --device /dev/ttyUSB0  flash --allow-cross-flashing --firmware xxxxxxxxxx.gbl|
 
 
 
